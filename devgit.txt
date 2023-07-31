@@ -12,4 +12,4 @@ git config --global user.email ""
 git checkout
 git checkout -b 
 git checkout -d
-
+git branch
