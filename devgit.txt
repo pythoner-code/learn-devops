@@ -9,6 +9,8 @@ git log --oneline
 git log --oneline --pretty
 git config --global user.name ""
 git config --global user.email ""
+git remote set-url origin <url>
+git remote remove origin
 git checkout
 git checkout -b 
 git checkout -d
