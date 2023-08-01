@@ -19,4 +19,4 @@ git clone       =    clone whole repository from remote to local repository
 git fetch       =    tells there are changes available in remote repository
 git remote -v   =    show from where the repository came
 git pull origin =    bring only new changes from remote to local repository
-git push origin <branch>
+git push -u origin <branch>
