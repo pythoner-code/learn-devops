@@ -7,16 +7,22 @@ git log
 git restore
 git log --oneline
 git log --oneline --pretty
+git config --list
 git config --global user.name ""
 git config --global user.email ""
 git remote set-url origin <url>
 git remote remove origin
 git checkout
-git checkout -b 
-git checkout -d
+git checkout -b <branch_name>
+git checkout -d <branch_name>
 git branch
 git clone       =    clone whole repository from remote to local repository
 git fetch       =    tells there are changes available in remote repository
 git remote -v   =    show from where the repository came
 git pull origin =    bring only new changes from remote to local repository
 git push -u origin <branch>
+git merge <branch_u_want_to_merge
+git revert <commit_id>           =    create new commit and maintain the commit history
+git reset <commit_id>            =    delete the entire history till the commit id
+git rebase master
+git pull origin master --rebase
