@@ -25,7 +25,8 @@ git fetch       =    tells there are changes available in remote repository
 git remote -v   =    show from where the repository came
 git pull origin =    bring only new changes from remote to local repository
 git push -u origin <branch>
-git merge <branch_u_want_to_merge
+git merge <branch_u_want_to_merge>
+git merge <branch> --ff
 git revert <commit_id>          =    create new commit and maintain the commit history
 git reset <commit_id> --soft    =    untrack the changes and delete entire history till the commit id
 git reset <commit_id> --mixed   =    
